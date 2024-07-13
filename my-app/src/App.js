@@ -2,7 +2,6 @@ import css from "./App.css";
 import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
-import Loader from "./components/Loader";
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <NavBarForm />
       <Sidebar />
       <Content />
-      <Loader />
     </div>
   );
 }
