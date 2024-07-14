@@ -2,7 +2,8 @@ import css from "./App.css";
 /* import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content"; */
-import ControlledForms from "./components/ControlledForms";
+/* import ControlledForms from "./components/ControlledForms"; */
+import UncontrolledForms from "./components/UncontrolledForms";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
 {/*       <NavBarForm />
       <Sidebar />
       <Content /> */}
-      <ControlledForms />
+{/*       <ControlledForms /> */}
+      <UncontrolledForms />
     </div>
   );
 }
