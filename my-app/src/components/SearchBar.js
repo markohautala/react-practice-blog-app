@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import names from '../data/names'
+import Content from './Content'
 
 export default class SearchBar extends Component {
   constructor(props) {
@@ -7,6 +8,7 @@ export default class SearchBar extends Component {
 
     this.state = {
       names: names
+
     }
   }
 
@@ -23,10 +25,10 @@ export default class SearchBar extends Component {
 
   render() {
     return (
-      <div style={{ margin: '50px' }}>
-        <h1>Search name:</h1>
+      <div>
+        <h1>Search Artist:</h1>
         <form action="">
-          <input onChange={this.handleChange} type="text" placeholder="Search name" />
+          <input onChange={this.handleChange} type="text" placeholder="Search Artist" />
           <input type="submit" value="Search" />
         </form>
         <div>Search-result is rendered here:</div>
