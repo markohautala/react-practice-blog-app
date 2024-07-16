@@ -3,7 +3,9 @@ import css from "./App.css";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content"; */
 /* import ControlledForms from "./components/ControlledForms"; */
-import UncontrolledForms from "./components/UncontrolledForms";
+/* import UncontrolledForms from "./components/UncontrolledForms";
+ */
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <Sidebar />
       <Content /> */}
 {/*       <ControlledForms /> */}
-      <UncontrolledForms />
+      <SearchBar />
     </div>
   );
 }
